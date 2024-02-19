@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DeviceOwnerSample</string>
+
+    <string name="is_app_device_owner">Is App device owner:</string>
+    <string name="default_true">True</string>
+    <string name="default_false">False</string>
+    <string name="error_dpm_null">ERROR! DevicePolicyManager null!</string>
+</resources>
