@@ -1,4 +1,3 @@
-// https://www.makeareadme.com/
 # Enroll and Provision a device (DemoApp)
 
 This project serves as a demonstration of an Application that can be enrolled with on of the [Android Enterprise Work Profiles](https://www.android.com/enterprise/work-profile/)
