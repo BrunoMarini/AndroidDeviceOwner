@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-    We can use this class to define which policies will be support
-    Below definitions covers all Device Owner supported policies
- -->
-<device-admin>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-policies>
         <limit-password />
         <watch-login />

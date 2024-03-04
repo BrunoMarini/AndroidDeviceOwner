@@ -1,8 +1,20 @@
 <resources>
     <string name="app_name">DeviceOwnerSample</string>
 
-    <string name="is_app_device_owner">Is App device owner:</string>
-    <string name="default_true">True</string>
-    <string name="default_false">False</string>
-    <string name="error_dpm_null">ERROR! DevicePolicyManager null!</string>
+    <string name="do_sample">DO Sample</string>
+    <string name="app_not_managed">App not managed</string>
+    <string name="app_is_do">App is DO</string>
+    <string name="app_is_wpc">App is WPC</string>
+
+    <string name="btn_toggle_usb_data_signal">setUsbDataSignalingEnabled(%b)</string>
+    <string name="api_set_usb_data_signal">setUsbDataSignalingEnabled(boolean enabled)</string>
+
+    <string name="choose_provisioning_mode">Choose provisioning mode</string>
+    <string name="company_owned">Company Owned</string>
+    <string name="btn_enroll_fully_managed_device">Enroll fully managed device (DO)</string>
+    <string name="btn_enroll_managed_profile">Managed profile (WPC)</string>
+
+    <string name="accept">Accept</string>
+    <string name="policy_compliance">Policy Compliance</string>
+    <string name="lorem_ipsum"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
 </resources>
