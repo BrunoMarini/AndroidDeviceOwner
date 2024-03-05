@@ -11,7 +11,7 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.device.owner.sample.DeviceOwnerReceiver;
+import com.device.owner.sample.provisioning.DeviceOwnerReceiver;
 import com.device.owner.sample.R;
 import com.device.owner.sample.util.Logger;
 

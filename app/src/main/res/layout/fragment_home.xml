@@ -13,7 +13,7 @@
         android:gravity="center"
         android:orientation="vertical">
         <TextView
-            android:text="@string/do_sample"
+            android:text="@string/device_enroll_demo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

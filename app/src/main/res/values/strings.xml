@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">DeviceOwnerSample</string>
 
-    <string name="do_sample">DO Sample</string>
+    <string name="device_enroll_demo">Device Enroll Demo</string>
     <string name="app_not_managed">App not managed</string>
     <string name="app_is_do">App is DO</string>
     <string name="app_is_wpc">App is WPC</string>
@@ -17,4 +17,8 @@
     <string name="accept">Accept</string>
     <string name="policy_compliance">Policy Compliance</string>
     <string name="lorem_ipsum"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <string name="personal_device">Personal Device</string>
+    <string name="device_not_enrolled_choose_provisioning_mode">Device not enrolled!\nChoose provisioning mode</string>
+    <string name="btn_enroll_work_profile_on_personal_owned">Work profile on personal owned device (BYOD)</string>
 </resources>

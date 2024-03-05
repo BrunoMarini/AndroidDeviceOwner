@@ -1,4 +1,4 @@
-package com.device.owner.sample;
+package com.device.owner.sample.provisioning;
 
 import static android.app.admin.DevicePolicyManager.EXTRA_PROVISIONING_MODE;
 import static android.app.admin.DevicePolicyManager.PROVISIONING_MODE_FULLY_MANAGED_DEVICE;
@@ -7,6 +7,8 @@ import static android.app.admin.DevicePolicyManager.PROVISIONING_MODE_MANAGED_PR
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.device.owner.sample.R;
 
 public class GetProvisioningModeActivity extends Activity {
     private static final String TAG = GetProvisioningModeActivity.class.getSimpleName();

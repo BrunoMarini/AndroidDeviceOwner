@@ -1,4 +1,4 @@
-package com.device.owner.sample;
+package com.device.owner.sample.provisioning;
 
 import android.app.admin.DeviceAdminReceiver;
 import android.content.ComponentName;
@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
+import com.device.owner.sample.MainActivity;
 import com.device.owner.sample.util.Logger;
 
 public class DeviceOwnerReceiver extends DeviceAdminReceiver {

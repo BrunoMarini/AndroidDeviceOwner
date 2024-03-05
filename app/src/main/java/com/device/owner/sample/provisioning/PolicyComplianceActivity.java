@@ -1,7 +1,9 @@
-package com.device.owner.sample;
+package com.device.owner.sample.provisioning;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.device.owner.sample.R;
 
 public class PolicyComplianceActivity extends Activity {
     private static final String TAG = PolicyComplianceActivity.class.getSimpleName();
