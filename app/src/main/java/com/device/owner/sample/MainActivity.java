@@ -16,8 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = getIntent();
-        Logger.d(TAG, "Action: " + intent.getAction());
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.container_main, HomeFragment.newInstance(), null)
                 .commit();

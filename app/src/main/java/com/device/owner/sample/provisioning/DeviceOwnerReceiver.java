@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-import com.device.owner.sample.MainActivity;
 import com.device.owner.sample.util.Logger;
 
 public class DeviceOwnerReceiver extends DeviceAdminReceiver {
@@ -14,22 +13,14 @@ public class DeviceOwnerReceiver extends DeviceAdminReceiver {
 
     @Override
     public void onEnabled(Context context, Intent intent) {
-        Logger.d(TAG, "onEnabled");
-        showToast(context, "Admin onEnabled()");
-        launchMainActivity(context);
+        Logger.d(TAG, "onEnabled(): " + intent.getAction());
+        showToast(context, "onEnabled()");
     }
 
     @Override
     public void onProfileProvisioningComplete(Context context, Intent intent) {
-        Logger.d(TAG, "onProfileProvisioningComplete");
+        Logger.d(TAG, "onProfileProvisioningComplete(): " + intent.getAction());
         showToast(context, "onProfileProvisioningComplete()");
-    }
-
-    private void launchMainActivity(Context context) {
-        // Launch Activity after provisioning
-        Intent startActivityIntent = new Intent(context, MainActivity.class);
-        startActivityIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        context.startActivity(startActivityIntent);
     }
 
     private void showToast(Context context, String message) {
