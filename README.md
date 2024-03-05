@@ -34,7 +34,7 @@ See more [Enroll and provision a device](https://developers.google.com/android/m
 This is how a provision QR Code content should look like this:
 ```json
 {
-    "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.device.owner.sample.provisioning/com.device.owner.sample.provisioning.DeviceOwnerReceiver",
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.device.owner.sample/com.device.owner.sample.provisioning.DeviceOwnerReceiver",
     "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM": "<APK_CHECKSUM>",
     "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "<APK_DIRECT_DOWNLOAD_LINK>"
 }
